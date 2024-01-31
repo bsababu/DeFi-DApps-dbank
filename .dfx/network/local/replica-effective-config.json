@@ -1,0 +1,31 @@
+{
+  "replica_rev": "324eb99eb7531369a5ef75560f1a1a652d123714",
+  "type": "replica",
+  "config": {
+    "http_handler": {
+      "port": null,
+      "write_port_to": "/Users/bks/Desktop/general skills/DAAPS/internet_computer_proj/ICP_with_motoko/dbank/DeFi-DApps-dbank/.dfx/network/local/replica-configuration/replica-1.port"
+    },
+    "state_manager": {
+      "state_root": "/Users/bks/Desktop/general skills/DAAPS/internet_computer_proj/ICP_with_motoko/dbank/DeFi-DApps-dbank/.dfx/network/local/state/replicated_state"
+    },
+    "crypto": {
+      "crypto_root": "/Users/bks/Desktop/general skills/DAAPS/internet_computer_proj/ICP_with_motoko/dbank/DeFi-DApps-dbank/.dfx/network/local/state/crypto_store"
+    },
+    "artifact_pool": {
+      "consensus_pool_path": "/Users/bks/Desktop/general skills/DAAPS/internet_computer_proj/ICP_with_motoko/dbank/DeFi-DApps-dbank/.dfx/network/local/state/consensus_pool"
+    },
+    "subnet_type": "application",
+    "btc_adapter": {
+      "enabled": false,
+      "socket_path": null
+    },
+    "canister_http_adapter": {
+      "enabled": true,
+      "socket_path": "/var/folders/k4/2rz2yb5n249540g6p56533t80000gn/T/ic-https-outcalls-adapter-socket.25245.1706741055"
+    },
+    "log_level": "error",
+    "artificial_delay": 600,
+    "use_old_metering": false
+  }
+}

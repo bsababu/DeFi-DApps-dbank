@@ -14,7 +14,7 @@ actor dBank {
   currentValue := 300; // ewhen changing the value to a valriable, we use := replace op
   
   Debug.print("Hello");
-  Debug.print(debug_show(currentValue));
+  //Debug.print(debug_show(currentValue));
 
   stable var startTime = Time.now();
   startTime := Time.now();

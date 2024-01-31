@@ -18,7 +18,8 @@ document.querySelector("form").addEventListener("submit", async(e)=> {
   }
   if(document.getElementById("withdrawal-amount").value.length !=0) {
     const withdrawAmount = parseFloat(document.getElementById("withdrawal-amount").value); 
-    await dbank.withdrawAmount(withdrawAmount);
+    await dbank.withDraw(withdrawAmount);
+  
   }
   await dbank.compoundInterest();
   update();
