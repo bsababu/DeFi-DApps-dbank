@@ -11,13 +11,14 @@ import Float "mo:base/Float";
 // we create a class with keyword actor
 actor dBank {
   stable var currentValue: Float = 300; // we use stable keyword to keep the lasted state
-  //currentValue := 100; // ewhen changing the value to a valriable, we use := replace op
-  currentValue := 300;
+  currentValue := 300; // ewhen changing the value to a valriable, we use := replace op
+  
   Debug.print("Hello");
   Debug.print(debug_show(currentValue));
 
   stable var startTime = Time.now();
-  // let is a constant or immutable
+  startTime := Time.now();
+  // let is a constant or immutabledfxxx
   let id = 45378343;
   Debug.print(debug_show(id));
 
