@@ -21405,7 +21405,8 @@ document.querySelector("form").addEventListener("submit", async(e)=> {
   }
   if(document.getElementById("withdrawal-amount").value.length !=0) {
     const withdrawAmount = parseFloat(document.getElementById("withdrawal-amount").value); 
-    await _declarations_dbank__WEBPACK_IMPORTED_MODULE_0__.dbank.withdrawAmount(withdrawAmount);
+    await _declarations_dbank__WEBPACK_IMPORTED_MODULE_0__.dbank.withDraw(withdrawAmount);
+  
   }
   await _declarations_dbank__WEBPACK_IMPORTED_MODULE_0__.dbank.compoundInterest();
   update();
