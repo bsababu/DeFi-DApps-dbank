@@ -1,5 +1,10 @@
 # dbank
 
+![log](src/dbank_assets/assets/defi_logo.png)
+
+
+### deployed on ICP
+
 [https://jpxbd-haaaa-aaaan-qltfa-cai.raw.ic0.app/]
 
 Welcome to your new dbank project and to the internet computer development community. 
@@ -20,7 +25,6 @@ dfx help
 dfx config --help
 ```
 
-[src/dbank_assets/assets/defi_logo.png]
 
 ## Running the project locally
 
